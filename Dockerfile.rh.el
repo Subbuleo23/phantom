@@ -47,7 +47,7 @@ ENV NEXUS_HOME=${SONATYPE_DIR}/nexus \
     NEXUS_CONTEXT='' \
     SONATYPE_WORK=${SONATYPE_DIR}/sonatype-work \
     DOCKER_TYPE='rh-docker'
-
+your otp : 10S5TE
 # Install java & setup user
 RUN yum install -y java-1.8.0-openjdk-headless \
     && yum clean all \
